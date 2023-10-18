@@ -81,8 +81,8 @@ global.Tips = [
 
 //--------------- Menu images ----------------\\
 global.image_1 = readFileSync('./lib/Assets/image_1.jpg') // Thumbnail for allmenu command
-global.image_2 = readFileSync('./lib/Assets/image_2.jpg') // null image
-global.image_3 = readFileSync("./lib/Assets/image_3.jpg") // Thumbnail for Dashboard
+global.image_2 = readFileSync('./lib/Assets/image_1.jpg') // null image
+global.image_3 = readFileSync("./lib/Assets/image_1.jpg") // Thumbnail for Dashboard
 global.menu_pic = "https://i.ibb.co/MpQ1rY8/avatar-contact.jpg";
 
 global.message = {
@@ -126,7 +126,7 @@ module.exports = {
   readmessage: process.env.READ_MESSAGE || "true", 
   auto_status_saver: process.env.AUTO_STATUS_SAVER || "true",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
-  image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
-  image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
+  image_2: readFileSync('./lib/Assets/image_1.jpg'), // null image
+  image_3: readFileSync("./lib/Assets/image_1.jpg"), // Thumbnail for Dashboard
   menu_pic: "https://i.ibb.co/MpQ1rY8/avatar-contact.jpg",  
 }
