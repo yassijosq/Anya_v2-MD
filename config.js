@@ -8,16 +8,16 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
-global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
+global.botname = process.env.BotName || "𝙃4𝙓𝙓 𝘽𝙊𝙏 𝘽𝙔 𝙏𝙊𝙈𝙍𝙏" 
+global.author = process.env.Author || "@Tomrt2024" 
+global.packname = process.env.PackName || "H4XX v2 MD" 
+global.myweb = process.env.Web || "https://instagram.com/ya_22o" 
+global.footer = process.env.Footer || "© H4XX Bot" 
 global.prefa = process.env.Prefix || ['-'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
-global.adress = process.env.Continent || "Asia, India, Assam" 
+global.ownername = process.env.Owner_Name || "Tomrt-ysr" 
+global.ownernumber = process.env.Owner_Number || "212645866783" 
+global.adress = process.env.Continent || "Afriquia, Morroco, Casablanca" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
@@ -83,7 +83,7 @@ global.Tips = [
 global.image_1 = readFileSync('./lib/Assets/image_1.jpg') // Thumbnail for allmenu command
 global.image_2 = readFileSync('./lib/Assets/image_2.jpg') // null image
 global.image_3 = readFileSync("./lib/Assets/image_3.jpg") // Thumbnail for Dashboard
-global.menu_pic = "https://i.ibb.co/PhDcZTM/Thumbnail.png";
+global.menu_pic = "https://i.ibb.co/MpQ1rY8/avatar-contact.jpg";
 
 global.message = {
     success: 'Done ✅',
@@ -101,16 +101,16 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
-  myweb: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
+  botname: process.env.BotName || "𝙃4𝙓𝙓 𝘽𝙊𝙏 𝘽𝙔 𝙏𝙊𝙈𝙍𝙏", 
+  author: process.env.Author || "@Tomrt2024",
+  packname: process.env.PackName || "H4XX v2 MD",
+  myweb: process.env.Web || "https://instagram.com/ya_22o",
+  footer: process.env.Footer || "© H4XX Bot",
   prefa: process.env.Prefix || ['-'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
-  adress: process.env.Continent || "Asia, India, Assam",
+  ownername: process.env.Owner_Name || "Tomrt~ysr",
+  ownernumber: process.env.Owner_Number || "212645866783",
+  adress: process.env.Continent || "Afriquia, Morroco, Casablanca",
   timezone: process.env.TimeZone || "Asia/Kolkata", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
@@ -128,5 +128,5 @@ module.exports = {
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
-  menu_pic: "https://i.ibb.co/PhDcZTM/Thumbnail.png",  
+  menu_pic: "https://i.ibb.co/MpQ1rY8/avatar-contact.jpg",  
 }
